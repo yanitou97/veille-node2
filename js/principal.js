@@ -19,3 +19,10 @@ $(document).on("click", "header ul li:eq(2)", function(){
         
     })
 });
+$(document).on("click", "header ul li:eq(3)", function(){
+    $('html, body').animate({
+        scrollTop: $("#montFuji").offset().top
+      }, 300, function(){
+        
+    })
+});
