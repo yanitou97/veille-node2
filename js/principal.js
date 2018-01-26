@@ -12,3 +12,10 @@ $(document).on("click", "header ul li:eq(1)", function(){
         
     })
 });
+$(document).on("click", "header ul li:eq(2)", function(){
+    $('html, body').animate({
+        scrollTop: $("#hakone").offset().top
+      }, 300, function(){
+        
+    })
+});
