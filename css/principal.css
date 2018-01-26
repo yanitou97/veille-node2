@@ -102,13 +102,13 @@ main #universalStudiosJapan{
 
 footer{
     background:#FF7B5F;
-    height: 200px;
+    height: 100px;
     position: relative;
     text-align: center;
 }
 footer p{
     position: absolute;
-    bottom:0;
+    bottom:10px;;
     left: 40%;
     margin-bottom: 0; 
 }
