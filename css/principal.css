@@ -19,7 +19,7 @@ header #titreH #logoH{
     padding-right: 20px;
 }
 header #titreH #texteH h1{
-    padding-top: 20px;
+    padding-top: 30px;
     margin-bottom: 0;
 }
 header #titreH #texteH h2{
@@ -61,4 +61,18 @@ header ul li a:hover:before{
     visibility: visible;
     -webkit-transform: scaleX(1);
     transform: scaleX(1);
+}
+main div{
+    padding: 50px 30px;
+}
+main #tokyo{
+    background:#FF7B5F;
+}
+
+main #montFuji{
+    background:#FF7B5F;
+}
+
+main #universalStudiosJapan{
+    background:#FF7B5F;
 }
