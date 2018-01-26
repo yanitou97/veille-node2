@@ -26,6 +26,11 @@ header #titreH #texteH h2{
     margin-top: -10px;
 }
 header ul{
+    position: fixed;
+    top:-20px;
+    background:#FF7B5F;
+    width: 100%;
+    z-index: 100;
     display: flex; 
     justify-content: space-evenly;
     margin-left: -40px;
