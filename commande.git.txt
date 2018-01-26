@@ -1,4 +1,5 @@
 git remote add origin http://github.com/eddymartin/wp-theme.git
 git push -u origin master
 
+git add <nom du fichier> // indexer un fichier modifié
 git add .  //indexer l'ensemble des fichiers modifiés
