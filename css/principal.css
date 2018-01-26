@@ -68,6 +68,8 @@ main div{
 main div #contenu{
     display: flex;
     align-items:center;
+    width: 80%;
+    margin-left: 10%
 }
 main div #contenu img{
     margin-right: 30px;
