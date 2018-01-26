@@ -71,6 +71,9 @@ main div #contenu{
     width: 80%;
     margin-left: 10%
 }
+main div #contenu p {
+    margin-top: 20px;
+}
 main div #contenu img{
     margin-right: 30px;
 }
