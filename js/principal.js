@@ -26,3 +26,10 @@ $(document).on("click", "header ul li:eq(3)", function(){
         
     })
 });
+$(document).on("click", "header ul li:eq(4)", function(){
+    $('html, body').animate({
+        scrollTop: $("#disneyLandJapan").offset().top
+      }, 300, function(){
+        
+    })
+});
