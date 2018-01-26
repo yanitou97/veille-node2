@@ -4,4 +4,11 @@ $(document).on("click", "header ul li:eq(0)", function(){
       }, 300, function(){
         
     })
-}); 
+});
+$(document).on("click", "header ul li:eq(1)", function(){
+    $('html, body').animate({
+        scrollTop: $("#tokyo").offset().top
+      }, 300, function(){
+        
+    })
+});
