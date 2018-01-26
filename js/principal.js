@@ -33,3 +33,10 @@ $(document).on("click", "header ul li:eq(4)", function(){
         
     })
 });
+$(document).on("click", "header ul li:eq(5)", function(){
+    $('html, body').animate({
+        scrollTop: $("#universalStudiosJapan").offset().top
+      }, 300, function(){
+        
+    })
+});
