@@ -76,6 +76,7 @@ main div #contenu p {
 }
 main div #contenu img{
     margin-right: 30px;
+    margin-left: 30px;
 }
 main #tokyo{
     background:#FF7B5F;
