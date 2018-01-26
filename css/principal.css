@@ -65,6 +65,13 @@ header ul li a:hover:before{
 main div{
     padding: 50px 30px;
 }
+main div #contenu{
+    display: flex;
+    align-items:center;
+}
+main div #contenu img{
+    margin-right: 30px;
+}
 main #tokyo{
     background:#FF7B5F;
 }
@@ -75,4 +82,17 @@ main #montFuji{
 
 main #universalStudiosJapan{
     background:#FF7B5F;
+}
+
+footer{
+    background:#FF7B5F;
+    height: 200px;
+    position: relative;
+    text-align: center;
+}
+footer p{
+    position: absolute;
+    bottom:0;
+    left: 40%;
+    margin-bottom: 0; 
 }
