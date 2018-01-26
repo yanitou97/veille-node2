@@ -11,6 +11,10 @@ header{
     width: 100%;
     padding: 30px;
 }
+header p{
+    margin-left: 7.2%;
+    margin-top: -15px;
+}
 header #titreH{
     display: flex;
 }
@@ -19,7 +23,6 @@ header #titreH #logoH{
     padding-right: 20px;
 }
 header #titreH #texteH h1{
-    padding-top: 30px;
     margin-bottom: 0;
 }
 header #titreH #texteH h2{
