@@ -1,0 +1,117 @@
+body{
+    margin: 0;
+    margin-top:-25px;
+    padding: 0;
+    color: black;
+    font-family: 'Indie Flower', cursive;
+}
+header{
+    background:#FF7B5F;
+    margin:0 auto;
+    width: 100%;
+    padding: 30px;
+}
+header p{
+    margin-left: 7.2%;
+    margin-top: -15px;
+}
+header #titreH{
+    display: flex;
+}
+header #titreH #logoH{
+    padding-top: 40px;
+    padding-right: 20px;
+}
+header #titreH #texteH h1{
+    margin-bottom: 0;
+}
+header #titreH #texteH h2{
+    margin-top: -10px;
+}
+header ul{
+    position: fixed;
+    top:-20px;
+    background:#FF7B5F;
+    width: 100%;
+    z-index: 100;
+    display: flex; 
+    justify-content: space-evenly;
+    margin-left: -40px;
+}
+header ul li{
+    list-style-type: none;
+    margin: 10px 20px;
+}
+header ul li a{
+    position: relative;
+    color: #000;
+    text-decoration: none;
+}
+header ul li a:hover{
+    color: #000;
+}
+header ul li a:before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #000;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+header ul li a:hover:before{
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+main div h3{
+    position: relative;
+    color: #000;
+    text-decoration: none;
+}
+main div{
+    padding: 50px 30px;
+}
+main div #contenu{
+    display: flex;
+    align-items:center;
+    width: 80%;
+    margin-left: 10%
+}
+main div #contenu p {
+    margin-top: 20px;
+}
+main div #contenu img{
+    margin-right: 30px;
+    margin-left: 30px;
+}
+main #tokyo{
+    background:#FF7B5F;
+}
+
+main #montFuji{
+    background:#FF7B5F;
+}
+
+main #universalStudiosJapan{
+    background:#FF7B5F;
+}
+
+footer{
+    background:#FF7B5F;
+    height: 100px;
+    position: relative;
+    text-align: center;
+}
+footer p{
+    position: absolute;
+    bottom:10px;;
+    left: 40%;
+    margin-bottom: 0; 
+}
