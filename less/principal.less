@@ -13,6 +13,12 @@ header{
 }
 header #titreH{
     display: flex;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
 header #titreH #logoH{
     padding-top: 40px;
@@ -98,7 +104,10 @@ main #montFuji{
 main #universalStudiosJapan{
     background:#FF7B5F;
 }
-
+main #osaka #contenu{
+    margin-left: 100px;
+    opacity: 0;
+}
 footer{
     background:#FF7B5F;
     height: 100px;
