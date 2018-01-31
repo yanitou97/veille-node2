@@ -1,6 +1,6 @@
 $(window).on('load', function(){
-    $("header").css('height', $(window).height());
-    $("main div").css('height', $(window).height());
+    $("header").css('height', $(window).height()-60);
+    $("main div").css('height', $(window).height()-60);
 });
 $(document).on("click", "header ul li:eq(0)", function(){
     $('html, body').animate({
